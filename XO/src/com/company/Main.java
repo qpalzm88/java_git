@@ -13,6 +13,7 @@ public class Main {
         playerName = howName();
         Game game = new Game(playerName);
         Field field=new Field();
+        game.startGame(field);
 
 
 
