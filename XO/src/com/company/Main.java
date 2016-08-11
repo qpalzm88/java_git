@@ -17,7 +17,8 @@ public class Main {
         game.endGame(field);
 
         field.showField();
-        System.out.println("Bay!");
+        System.out.println();
+        System.out.println(" Good Bay!");
 
 
 
