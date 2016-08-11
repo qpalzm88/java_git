@@ -14,6 +14,7 @@ public class Main {
         Game game = new Game(playerName);
         Field field=new Field();
         game.startGame(field);
+        game.endGame(field);
 
         field.showField();
         System.out.println("Bay!");

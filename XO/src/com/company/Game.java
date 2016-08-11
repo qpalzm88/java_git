@@ -24,7 +24,7 @@ public class Game {
 
     private void step(Field field) {
         boolean nextStep = false;
-        System.out.print("Your step " + this.getPlayerName());
+        System.out.println("Your step " + this.getPlayerName());
         while (!nextStep) {
             int[] i = this.scanStep();
             int x = --i[0];
@@ -49,14 +49,14 @@ public class Game {
 
                 do {
                     System.out.println("Please enter horizontal number field  from 1 until 3 ");
-                    ints[0] = Integer.valueOf(scanner.next());
-                }
-                while (ints[0] < 1 || ints[0] > 3);
-                do {
-                    System.out.println("Please enter vertical number field  from 1 until 3 ");
                     ints[1] = Integer.valueOf(scanner.next());
                 }
                 while (ints[1] < 1 || ints[1] > 3);
+                do {
+                    System.out.println("Please enter vertical number field  from 1 until 3 ");
+                    ints[0] = Integer.valueOf(scanner.next());
+                }
+                while (ints[0] < 1 || ints[0] > 3);
                 break;
 
             } catch (Exception e) {
