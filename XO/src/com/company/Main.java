@@ -15,6 +15,10 @@ public class Main {
         Field field=new Field();
         game.startGame(field);
 
+        field.showField();
+        System.out.println("Bay!");
+
+
 
 
     }
