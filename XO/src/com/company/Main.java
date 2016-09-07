@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 	// write your code here
         String playerName = new String();
-        System.out.println("Hello this is game XO");
+        System.out.println("Hello user this is game XO");
         playerName = howName();
         Game game = new Game(playerName);
         Field field=new Field();
